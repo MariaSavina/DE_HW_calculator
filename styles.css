@@ -1,0 +1,78 @@
+body {
+  background: whitesmoke;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.result {
+  border: rgb(85, 85, 84) solid 1px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.calc-content {
+  display: flex;
+}
+.ingine {
+  display: flex;
+  flex-direction: column;
+}
+.ingine-child {
+  display: flex;
+}
+.ingine-child > div {
+  border: rgb(85, 85, 84) solid 1px;
+  background: rgb(212, 212, 212);
+  width: 50%;
+  padding: 20px;
+}
+.ingine-child > div:hover {
+  background: rgb(185, 181, 181);
+}
+.ingine-child > div:active {
+  background: rgb(77, 66, 66);
+}
+.basic {
+  display: flex;
+  width: 100%;
+}
+.numbers {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.numbers-child {
+  display: flex;
+  background: rgb(238, 238, 238);
+}
+.numbers-child > div {
+  border: rgb(85, 85, 84) solid 1px;
+  width: 100%;
+  padding: 20px;
+}
+.numbers-child > div:hover {
+  background: rgb(185, 181, 181);
+}
+.numbers-child > div:active {
+  background: rgb(77, 66, 66);
+}
+.similar-operations {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.similar-operations > div {
+  background: rgb(212, 212, 212);
+  border: rgb(85, 85, 84) solid 1px;
+  padding: 20px;
+}
+.similar-operations > div:hover {
+  background: rgb(185, 181, 181);
+}
+.similar-operations > div:active {
+  background: rgb(77, 66, 66);
+}

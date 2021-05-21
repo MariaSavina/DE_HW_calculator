@@ -1,0 +1,24 @@
+{
+  "name": "de_hw_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.14.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-env-standalone": "^7.8.3",
+    "@babel/register": "^7.13.16",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "sinon": "^10.0.0"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha main.test.js --require @babel/register"
+  },
+  "author": "",
+  "license": "ISC"
+}
